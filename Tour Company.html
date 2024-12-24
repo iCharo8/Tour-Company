@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+        }
+        .tour-plans, .mpesa {
+            margin-top: 2rem;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to [Tour Company Name]</h1>
+        <p>Your gateway to unforgettable adventures!</p>
+    </header>
+
+    <nav>
+        <a href="#gallery">Gallery</a>
+        <a href="#tour-plans">Tour Plans</a>
+        <a href="#mpesa">Payment</a>
+    </nav>
+
+    <div class="content">
+        <section id="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="gallery">
+                <img src="photo1.jpg" alt="Tour photo 1">
+                <img src="photo2.jpg" alt="Tour photo 2">
+                <img src="photo3.jpg" alt="Tour photo 3">
+            </div>
+        </section>
+
+        <section id="tour-plans" class="tour-plans">
+            <h2>Our Tour Plans</h2>
+            <p>Explore our exciting tour packages designed to make your adventures unforgettable. Whether you prefer breathtaking safaris, serene beach holidays, or vibrant cultural explorations, we have something for everyone!</p>
+        </section>
+
+        <section id="mpesa" class="mpesa">
+            <h2>Payment Details</h2>
+            <p>Pay easily and securely through our M-Pesa till number:</p>
+            <p><strong>Till Number: 123456</strong></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 [Tour Company Name]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
